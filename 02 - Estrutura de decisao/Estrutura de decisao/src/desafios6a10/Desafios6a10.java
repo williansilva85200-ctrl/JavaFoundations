@@ -3,7 +3,7 @@ package desafios6a10;
 import java.util.Scanner;
 
 public class Desafios6a10 {
-    static void main(String[] args) {
+     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
@@ -196,7 +196,7 @@ public class Desafios6a10 {
                         break;
                     case 3:
                         compra = compra * 1.10 / 3;
-                        System.out.println("O valor da sua compra teve um acréscimo, por isso o valor parcelado em 3 vezes é " + compra;
+                        System.out.println("O valor da sua compra teve um acréscimo, por isso o valor parcelado em 3 vezes é " + compra);
                         break;
                 }
                 break;
