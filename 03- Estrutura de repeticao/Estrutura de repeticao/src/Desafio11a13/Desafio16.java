@@ -9,12 +9,13 @@ public class Desafio16 {
         //
         //Solicite números ao usuário, informando se são pares ou ímpares, e acumule as somas de números pares e de números impares.
         //O programa encerra ao receber 0, exibindo as somas totais de pares e ímpares.
+
+        int somaPar = 0;
+        int somaImpar = 0;
         while (true){
             System.out.println("Digite um numero par ou impar, [0 para parar]");
             int numeroEscolhido = sc.nextInt();
             int resto = numeroEscolhido % 2;
-            int somaPar = 0;
-            int somaImpar = 0;
             if (numeroEscolhido == 0){
                 break;
             }else if (resto == 1){
@@ -22,12 +23,13 @@ public class Desafio16 {
             }else {
                 somaPar = numeroEscolhido + somaPar;
             }
-            System.out.println(somaPar + somaImpar);
 
 
 
 
-        }
+
+        }System.out.println("A soma ods números pares é " + somaPar + " E a soma dos numeros impares é " + somaImpar);
+        sc.close();
 
     }
 }

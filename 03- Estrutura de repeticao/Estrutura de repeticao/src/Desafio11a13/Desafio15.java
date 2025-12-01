@@ -9,17 +9,17 @@ public class Desafio15 {
         //Desafio 3: Média de Números com DO-WHILE
         //
         //Peça ao usuário números até que ele digite 0. Calcule e exiba a média dos números digitados.
-        int fazendoMedia = 0;
-        int notas = 0;
-        int i = -1;
-        int media = 0;
+        double fazendoMedia = 0;
+        double notas = 0;
+        double i = -1;
+        double media = 0;
         while (true){
             System.out.println("Digite a sua nota[0 para parar]");
-            notas = sc.nextInt();
+            notas = sc.nextDouble();
             i++;
             if (notas == 0){
                 media = fazendoMedia / i;
-                System.out.println("Sua nota foi de " + media);
+                System.out.println("Sua média foi de " + media);
                 break;
             }else {
                  fazendoMedia = notas + fazendoMedia;

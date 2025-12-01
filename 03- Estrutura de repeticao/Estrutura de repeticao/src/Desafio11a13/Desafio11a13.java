@@ -47,7 +47,7 @@ public class Desafio11a13 {
         }
 
 
-        //Desafio 13: Fatorial de um Número
+        //Desafio 1: Fatorial de um Número
         //
         //Peça ao usuário um número inteiro positivo e, usando um for, calcule o fatorial desse número.
 
