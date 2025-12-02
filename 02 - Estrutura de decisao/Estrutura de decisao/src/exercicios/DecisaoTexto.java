@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class DecisaoTexto {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new  Scanner(System.in);
 
 
         //É usado o equals() para comparar igualdade em valores do tipo string
