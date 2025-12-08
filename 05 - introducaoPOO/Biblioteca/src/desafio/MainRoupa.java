@@ -26,7 +26,7 @@ public class MainRoupa {
 
         System.out.println("Aumentou o seu estoque, agora o seu estoque possui " + roupa.quantidade + "roupas") ;
 
-        System.out.println("Digite a quantidade de roupa do estoque?");
+        System.out.println("Digite a quantidade de roupa  de que voce quer tirar do estoque?");
         unidades = sc.nextInt();
         roupa.tirandoDoEstoque(unidades);
         System.out.println("Voce possui no estoque " + roupa.quantidade + " roupas");

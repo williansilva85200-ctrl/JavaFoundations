@@ -14,6 +14,7 @@ public class DesafioRoupa {
     public void incrementandoEstoque( int quantidade) {
         if (quantidade > 0) {
             this.quantidade += quantidade;
+            System.out.println("Abastecido com sucesso");
         } else {
             System.out.println("Valor inválido");
         }
