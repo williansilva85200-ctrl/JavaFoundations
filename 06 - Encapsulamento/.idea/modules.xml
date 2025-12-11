@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/06 - Encapsulamento.iml" filepath="$PROJECT_DIR$/.idea/06 - Encapsulamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CRUD Alunos/CRUD Alunos.iml" filepath="$PROJECT_DIR$/CRUD Alunos/CRUD Alunos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ContaBancaria/ContaBancaria.iml" filepath="$PROJECT_DIR$/ContaBancaria/ContaBancaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desafios/Desafios.iml" filepath="$PROJECT_DIR$/Desafios/Desafios.iml" />
+    </modules>
+  </component>
+</project>
