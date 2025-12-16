@@ -90,13 +90,12 @@ public class GerenciarLoja {
                         " | " + rs.getInt("id") + " | " +
                                 rs.getString("marca") + " | " +
                                 rs.getString("tipo") + " | " +
-                                rs.getString("tamanho") + " |" +
+                                rs.getString("tamanho") + " | " +
                                 rs.getInt("quantidade") + " | " +
-                                rs.getDouble("valor") + " | "
-                                rs.getDouble(calcularMedia()));
+                                rs.getDouble("valor") + " | " +
+                                calcularMedia(rs.getInt("quantidade"), rs.getDouble("valor")) + " | ");
 
             }
-            ;
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
