@@ -14,7 +14,7 @@ public class Main {
         gerenciarLoja.excluirRoupa(2);
         gerenciarLoja.alterarRoupa(3, "Puma", "Casaco", "GG", 1, 300);
         gerenciarLoja.listarRoupas();
-        gerenciarLoja.
+
 
         //gerenciarAlunos.listarALunos();
 
