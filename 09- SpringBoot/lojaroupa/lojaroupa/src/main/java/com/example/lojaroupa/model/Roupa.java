@@ -27,4 +27,12 @@ public class Roupa {
     private String tamanho;
     private int quantidade;
     private double preco;
+
+    public Roupa(DadosRoupa dadosRoupa) {
+        this.marca = dadosRoupa.marca();
+        this.tipo = dadosRoupa.tipo();
+        this.tamanho = dadosRoupa.tamanho();
+        this.quantidade = dadosRoupa.quantidade();
+        this.preco = dadosRoupa.preco();
+    }
 }
